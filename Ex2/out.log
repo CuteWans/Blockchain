@@ -1,0 +1,50 @@
+╭─root at DESKTOP-IKOECBQ in ~/src/blockchain/ex2 22-10-25 - 20:32:35
+╰─○ /bin/python3 /root/src/blockchain/ex2/ex2a.py
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "5445dfa34f41b10462e78ff16676f5db3cb3d6dda17026ee31f02b6fa3b57929",
+    "addresses": [
+      "mkne3KArh5DWkWoRiYFfQmh4MWhrTiNubf",
+      "zG4gtCADYH8jHVPJCfdbv5CSQezig1yZoj"
+    ],
+    "total": 150000,
+    "fees": 10000,
+    "size": 307,
+    "vsize": 307,
+    "preference": "low",
+    "relayed_by": "103.172.41.206",
+    "received": "2022-10-25T12:33:13.530328767Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "16cdf1751652cd0c099ea31a6bc016043b27e159a83e6ad19e1a86b2f39a9449",
+        "output_index": 0,
+        "script": "483045022100a43ddbd2e4f7b99c5e2379e290a5e256466973b6c12040030df506d64e700fed02206d099197b0217aa47157946b8e686ab0fd89137b1cd81ee026a64279f43cf8c20121032dd5771a470b7a3f4428d7c096f63cc41974221aca801c97add36f8ecd51df4a",
+        "output_value": 160000,
+        "sequence": 4294967295,
+        "addresses": [
+          "mkne3KArh5DWkWoRiYFfQmh4MWhrTiNubf"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2349446
+      }
+    ],
+    "outputs": [
+      {
+        "value": 150000,
+        "script": "21032dd5771a470b7a3f4428d7c096f63cc41974221aca801c97add36f8ecd51df4aad5121027d74835583210521195b9339f7cde09eee18ac1c57602b326f2e1b37564ab8622103e7444ed761e99d01153b213037eb2c5790f1cee686a20affd923e12c13ff786a2103145e336ac56fbf74d77094e204a589320bc017e4d8d6232a33dd739950cfd26b53ae",
+        "addresses": [
+          "zG4gtCADYH8jHVPJCfdbv5CSQezig1yZoj"
+        ],
+        "script_type": "pay-to-multi-pubkey-hash"
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "8a80bb539f3af63c84d02371ae4267ce3550aa480da2407f1f90627c09dc6a3e",
+    "addresses": [
+      "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+    ],
+    "total": 1400000,
+    "fees": 182271,
+    "size": 497,
+    "vsize": 497,
+    "preference": "high",
+    "relayed_by": "2001:250:401:6554:a9ea:908c:502b:4bb9",
+    "received": "2022-12-03T10:46:24.965940927Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "824d1beb3e294243ac889aec88b7dccfa0b93c428038a6b080203784847d7c1b",
+        "output_index": 1,
+        "script": "47304402205ccc2b3bceb4b1a7001c6c40357226dee928a388e4b6ae8aafdfb9e5cc4c261c02203683846a53cbe46ba172ca4cecbe6bac4006a1164c037afa4a47f2e7ce210a5c012103cca9d423f940e5263ee26c3e299d98ecb90401140e57974e5825a3e7b21112a3",
+        "output_value": 1582271,
+        "sequence": 4294967295,
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2409595
+      }
+    ],
+    "outputs": [
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 140000,
+        "script": "76a914c24058591f1272484c7d30b723744a4274951d7e88ac",
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}

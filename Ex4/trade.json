@@ -1,0 +1,184 @@
+Alice swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "db6bacf7cef5c703bb254583f7118a62c61d6f1aa41546b235244d6e268e1ee9",
+    "addresses": [
+      "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+    ],
+    "total": 119999,
+    "fees": 20001,
+    "size": 266,
+    "vsize": 266,
+    "preference": "medium",
+    "relayed_by": "2001:250:401:6554:61:a24:5d3:a8c8",
+    "received": "2022-12-03T15:31:32.955765454Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "8a80bb539f3af63c84d02371ae4267ce3550aa480da2407f1f90627c09dc6a3e",
+        "output_index": 3,
+        "script": "4830450221009d10c3175c5c2297635bd9a9a0d7ea80d01a51b374872d9256ada712f8b696990220736d6393ce8550e0f3463db99d9aac6674fb1ae463ffb72c882b4f13e67cb012012103cca9d423f940e5263ee26c3e299d98ecb90401140e57974e5825a3e7b21112a3",
+        "output_value": 140000,
+        "sequence": 4294967295,
+        "addresses": [
+          "myE4U3c79CnNkdjGx1EANQLiC5Ck2tDiq6"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2409598
+      }
+    ],
+    "outputs": [
+      {
+        "value": 119999,
+        "script": "2103d28b1d4001a9c62a51b0a0b3c1d1f8b5759f5eea2a8949d569192a07e0408333ad76a914853b775079232503df966e626618e1d388a9572087642103cca9d423f940e5263ee26c3e299d98ecb90401140e57974e5825a3e7b21112a3ac67755168",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Bob swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "4e98029303b618659ad5b105caf3f83ebc47cad7358d16d63ffb26e88dbd7106",
+    "addresses": [
+      "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+    ],
+    "total": 170000,
+    "fees": 10000,
+    "size": 266,
+    "vsize": 266,
+    "preference": "low",
+    "relayed_by": "2001:250:401:6554:61:a24:5d3:a8c8",
+    "received": "2022-12-03T15:31:33.350913884Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "c78f64b4d2feee3cee68f45cf3b46ffe0942107fdc4312e932fb646edee6a247",
+        "output_index": 0,
+        "script": "483045022100a32759cde291d3027fb1d5e8d006cd1bdda31688f387f0a803e51ccbaf27b6ea02201883480464af6d4ace2421ad87019747f81cd787eaae2de2ef0d0d10a4556c1c012103a7f7cdef6785af38c3e1ef0b7603bbdf1fa9ea424186ab8291f77fdfe711823a",
+        "output_value": 180000,
+        "sequence": 4294967295,
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 572418
+      }
+    ],
+    "outputs": [
+      {
+        "value": 170000,
+        "script": "2102c49f69a5e864d7942b8d103681ad83980c560947d549e0958c5bbd8f7b913c9ead76a914853b775079232503df966e626618e1d388a9572087642103a7f7cdef6785af38c3e1ef0b7603bbdf1fa9ea424186ab8291f77fdfe711823aac67755168",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
+Sleeping for 20 minutes to let transactions confirm...
+Alice redeem from swap tx (BCY) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "300533823381bd69925537396c814d57164e79f969f87866f4013a4cceb10146",
+    "addresses": [
+      "C8CT2woapDiDJjTG8SLNc3bLMu38jqv6Bc"
+    ],
+    "total": 160000,
+    "fees": 10000,
+    "size": 181,
+    "vsize": 181,
+    "preference": "low",
+    "relayed_by": "2001:250:401:6554:61:a24:5d3:a8c8",
+    "received": "2022-12-03T16:51:33.83368428Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "4e98029303b618659ad5b105caf3f83ebc47cad7358d16d63ffb26e88dbd7106",
+        "output_index": 0,
+        "script": "187468697349734153656372657450617373776f7264313233463043022005c51c63ea2ccf8aaed4b3a3a222087a320ce725b29a3edd9d5a4ac9d7cf0bb0021f4d99db56e60619504782e4f739e93a67a9fc2eb50461d927479a89231b98b001",
+        "output_value": 170000,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 572435
+      }
+    ],
+    "outputs": [
+      {
+        "value": 160000,
+        "script": "76a914a5537014a0588f0780df3eed6be761e090e4bc1c88ac",
+        "addresses": [
+          "C8CT2woapDiDJjTG8SLNc3bLMu38jqv6Bc"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+Bob redeem from swap tx (BTC) created successfully!
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "4553379747638c545359d79ba9bd6e935e8a9e45cb098c14a657001fd79b1524",
+    "addresses": [
+      "mq87epoGxXd8NL6jdoLHLW7v7yZ7CRF3u8"
+    ],
+    "total": 109999,
+    "fees": 10000,
+    "size": 183,
+    "vsize": 183,
+    "preference": "low",
+    "relayed_by": "2001:250:401:6554:61:a24:5d3:a8c8",
+    "received": "2022-12-03T16:51:35.05378705Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "db6bacf7cef5c703bb254583f7118a62c61d6f1aa41546b235244d6e268e1ee9",
+        "output_index": 0,
+        "script": "187468697349734153656372657450617373776f7264313233483045022100b544415510e599295b019b8d608c77966abd451c97830ab09a0e0c1daea618e7022045240053d859e6eb8b36e5f1991283ff0d1d08c147070a7f39093c94380ce53101",
+        "output_value": 119999,
+        "sequence": 4294967295,
+        "script_type": "unknown",
+        "age": 2409628
+      }
+    ],
+    "outputs": [
+      {
+        "value": 109999,
+        "script": "76a914695f80a2965e6e962c8d465e056dff2d4c77e03188ac",
+        "addresses": [
+          "mq87epoGxXd8NL6jdoLHLW7v7yZ7CRF3u8"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+

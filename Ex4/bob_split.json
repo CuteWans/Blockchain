@@ -1,0 +1,78 @@
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "c78f64b4d2feee3cee68f45cf3b46ffe0942107fdc4312e932fb646edee6a247",
+    "addresses": [
+      "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+    ],
+    "total": 900000,
+    "fees": 100000,
+    "size": 327,
+    "vsize": 327,
+    "preference": "high",
+    "relayed_by": "2001:250:401:6554:61:a24:5d3:a8c8",
+    "received": "2022-12-03T15:15:08.552829101Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 5,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "a13cc75493da052d873f030efaaa94f23ae968eef46749b6b1465bd9b5d9e6e6",
+        "output_index": 0,
+        "script": "473044022040e8f6165976f6fbb5297fad724510a091be2fb38797ba3b534c0d8ad60d73300220269fa9d0c69ad729a02c1226c976cfabb034c841fd0e683c5ae3369a94eda15a012103a7f7cdef6785af38c3e1ef0b7603bbdf1fa9ea424186ab8291f77fdfe711823a",
+        "output_value": 1000000,
+        "sequence": 4294967295,
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 572414
+      }
+    ],
+    "outputs": [
+      {
+        "value": 180000,
+        "script": "76a91499291d6d86339f0eef91f5e8e5e9db272b8c1ac888ac",
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 180000,
+        "script": "76a91499291d6d86339f0eef91f5e8e5e9db272b8c1ac888ac",
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 180000,
+        "script": "76a91499291d6d86339f0eef91f5e8e5e9db272b8c1ac888ac",
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 180000,
+        "script": "76a91499291d6d86339f0eef91f5e8e5e9db272b8c1ac888ac",
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 180000,
+        "script": "76a91499291d6d86339f0eef91f5e8e5e9db272b8c1ac888ac",
+        "addresses": [
+          "C768DzwH2G8CjP8e5pVmBJ4pAeQS1LNGDt"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}

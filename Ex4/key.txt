@@ -1,0 +1,70 @@
+alice:
+Private key: cN7JSzNEjxerSZDa68pgTXA4ZeBPX5ViHKKi7e6jLapeKvHHGg3s
+Address: mj2BraQyDZbsFMAFddCfrKay3aguWhgk1N
+{
+  "private": "79314503f75bd90ec333f8d02b9af77e7d4ea4ec5c078453cdab3a974865c412",
+  "public": "03b337bb013b4742699562de2c7ed4e3feb3fcb0cba352de54f58e11f2bc52bdcd",
+  "address": "C6im25EWC5K1H9f86cJgSZJeQycjtV9Sno",
+  "wif": "BsPcWer5XqVQm7RsPdCqbLjdwqDy3UjBCxCRtquursGhjzTH8VFN"
+}#    
+bob:
+Private key: cV4w7wALiiHKFyvJSrX6j9fLQ23nLTyYdNwApmR9oS6qnKtSvsNg
+Address: mgx4NHaSJieGQEBg2kiBbjQ2914Pn9vNkW
+{
+  "private": "630e5e3a3d3c64eb65389a45ea8bfe602016599688880f3e452f9e60f0ae4eae",
+  "public": "0212bd91133fa873eb6cd7120de2855c21c8b9729cc3bbbad36d7b8006bc4e25f7",
+  "address": "C4yKg3LTW8eTSVueDK8o7qunyYMdJRfHXo",
+  "wif": "BreamG2acfMGq2XT3bPwf8SBYboZ5ZLAUp8CGkMi1jrufuPNvHSm"
+}#  
+ef15bf4c473587
+{
+  "tx_ref": "28d63c3e5746b17d5e3a02df4d130ce9fff06b8195a5934c40c0d98c998d36b6"
+}#       
+
+
+Alice swap tx (BTC) created successfully! tx1
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "9c29600d76a9e6f154fe31c901fee715eec039d17cc5a2dbcc71a2a2529df215",
+    "addresses": [
+      "mj2BraQyDZbsFMAFddCfrKay3aguWhgk1N"
+    ],
+    "total": 18462,
+    "fees": 110001,
+    "size": 266,
+    "vsize": 266,
+    "preference": "high",
+    "relayed_by": "223.93.122.190",
+    "received": "2022-12-03T08:18:57.884385125Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 1,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "b4912f62006bc990c436196b4cab5f64f1c75152bb2cde08d469d1e92c3cc830",
+        "output_index": 0,
+        "script": "483045022100ed6764ea76893adda7ed1ed2847ca8f34833468d489ed8c35c5356dc61c1aa0d0220640e0e7673560c081dec9b760bcfcf288a8a98bafbacf0a2c44a39063251b977012103cada267b616db807a993d32a30d4199301e754f65a2cc5a56908d846c7b52296",
+        "output_value": 128463,
+        "sequence": 4294967295,
+        "addresses": [
+          "mj2BraQyDZbsFMAFddCfrKay3aguWhgk1N"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 2409461
+      }
+    ],
+    "outputs": [
+      {
+        "value": 18462,
+        "script": "2102a9f4eb573db937cf5a95bb79acb92243d73131b97e291ab13a03bf4eff6fb491ad76a914853b775079232503df966e626618e1d388a9572087642103cada267b616db807a993d32a30d4199301e754f65a2cc5a56908d846c7b52296ac67755168",
+        "addresses": null,
+        "script_type": "unknown"
+      }
+    ]
+  }
+}
